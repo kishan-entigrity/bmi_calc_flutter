@@ -77,11 +77,7 @@ class _InputPageState extends State<InputPage> {
       appBar: AppBar(
         title: Text(
           'BMI CALCULATOR',
-          style: TextStyle(
-            fontWeight: FontWeight.bold,
-            color: Colors.white,
-            letterSpacing: 4,
-          ),
+          style: kAppbarProp,
         ),
       ),
       body: Column(
@@ -295,6 +291,14 @@ class _InputPageState extends State<InputPage> {
 
               var _bmi = calc.calculateBMI();
               print('Your BMI result is : $_bmi');
+
+              Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                      builder: (context) => ResultsPage(
+                          interpretation: null,
+                          bmiResult: null,
+                          resultText: null)));
 
               Navigator.push(
                 context,

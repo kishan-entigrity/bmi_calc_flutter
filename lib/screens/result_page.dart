@@ -19,11 +19,7 @@ class ResultsPage extends StatelessWidget {
       appBar: AppBar(
         title: Text(
           'BMI CALCULATOR',
-          style: TextStyle(
-            fontWeight: FontWeight.bold,
-            color: Colors.white,
-            letterSpacing: 4,
-          ),
+          style: kAppbarProp,
         ),
       ),
       body: Column(

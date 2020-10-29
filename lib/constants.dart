@@ -61,6 +61,12 @@ const kBodyTextStyle = TextStyle(
   fontSize: 22.0,
 );
 
+const kAppbarProp = TextStyle(
+  fontWeight: FontWeight.bold,
+  color: Colors.white,
+  letterSpacing: 4,
+);
+
 const kActiveCardColor = Color(0xFF1D1E33);
 const kActiveCardColorYellow = Colors.yellow;
 const kTealColor = Colors.teal;
