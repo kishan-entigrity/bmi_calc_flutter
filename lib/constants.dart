@@ -45,8 +45,10 @@ const kTitleTextStyle = TextStyle(
 );
 
 const kResultTextStyle = TextStyle(
-  color: Color(0xFF24D876),
+  // color: Color(0xFF24D876),
+  color: Colors.teal,
   fontSize: 22.0,
+  letterSpacing: 3,
   fontWeight: FontWeight.bold,
 );
 
