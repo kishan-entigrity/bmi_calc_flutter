@@ -292,13 +292,13 @@ class _InputPageState extends State<InputPage> {
               var _bmi = calc.calculateBMI();
               print('Your BMI result is : $_bmi');
 
-              Navigator.push(
+              /*Navigator.push(
                   context,
                   MaterialPageRoute(
                       builder: (context) => ResultsPage(
                           interpretation: null,
                           bmiResult: null,
-                          resultText: null)));
+                          resultText: null)));*/
 
               Navigator.push(
                 context,
