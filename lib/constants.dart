@@ -14,6 +14,7 @@ const kBottomContainerColour = Color(0xFF495464);
 const kLabelTextStyleOwn = TextStyle(
   fontSize: 20.0,
   fontWeight: FontWeight.bold,
+  letterSpacing: 2,
 );
 
 const kLabelTextStyle = TextStyle(
@@ -35,6 +36,7 @@ const kNumberTextStyle = TextStyle(
 const kLargeButtonTextStyle = TextStyle(
   fontSize: 25.0,
   fontWeight: FontWeight.bold,
+  letterSpacing: 3,
 );
 
 const kTitleTextStyle = TextStyle(
@@ -43,8 +45,10 @@ const kTitleTextStyle = TextStyle(
 );
 
 const kResultTextStyle = TextStyle(
-  color: Color(0xFF24D876),
+  // color: Color(0xFF24D876),
+  color: Colors.teal,
   fontSize: 22.0,
+  letterSpacing: 3,
   fontWeight: FontWeight.bold,
 );
 
@@ -55,6 +59,12 @@ const kBMITextStyle = TextStyle(
 
 const kBodyTextStyle = TextStyle(
   fontSize: 22.0,
+);
+
+const kAppbarProp = TextStyle(
+  fontWeight: FontWeight.bold,
+  color: Colors.white,
+  letterSpacing: 4,
 );
 
 const kActiveCardColor = Color(0xFF1D1E33);
